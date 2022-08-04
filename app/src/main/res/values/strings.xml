@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Fitness Partner</string>
+    <string name="enteryoutheight">Please Enter Your Height in c.m :</string>
+    <string name="enteryoutweight">Please Enter Your Weight in k.g:</string>
+    <string-array name="navigation_drawer_items_array">
+        <item>Home</item>
+        <item>Step Counter</item>
+        <item>About US</item>
+        <item>Contact Us</item>
+        <item>Excersice</item>
+        <item>Diet Selection</item>
+        <item>Near By Gym list</item>
+        <item>Calories Calculator</item>
+        <item>Achievement</item>
+    </string-array>
+</resources>

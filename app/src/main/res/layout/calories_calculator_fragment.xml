@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bc"
+    android:gravity="center"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/tags_rounded_corners"
+        android:src="@drawable/calory_counter" />
+
+    <EditText
+        android:id="@+id/tvHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/round_rect_border"
+        android:hint="@string/enteryoutheight"
+        android:padding="@dimen/_10sdp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/tvWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/round_rect_border"
+        android:hint="@string/enteryoutweight"
+        android:padding="@dimen/_10sdp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvFootstep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/round_rect_border"
+        android:padding="@dimen/_10sdp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_rect_border"
+        android:textColor="@color/white"
+        android:id="@+id/btnCal"
+        android:padding="@dimen/_10sdp"
+        android:textStyle="bold|italic"
+        android:text="Calculate Calories"/>
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:padding="@dimen/_10sdp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enteryoutheight">Please Enter Your Height in c.m:</string>
+    <string name="enteryoutweight">Please Enter Your Weight in k.g:</string>
+</resources>

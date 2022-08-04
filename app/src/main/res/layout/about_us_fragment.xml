@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bc"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/tags_rounded_corners"
+        android:src="@drawable/about_us" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Our Mission"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_22sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="To provide you best services, with needed features and security."
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Our Essence"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_22sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Our client's happiness, and satisfaction."
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Our Promise"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_22sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="We will never prove you wrong for selecting us to fulfill your dream of having 24*7 fit and healthy body."
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Our Vibe"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_22sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="We dream it ,and then fulfill it together-everyday, reinventing Fitness and Freshness from everywhere it is possible.."
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20sdp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/ivExcersice"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_3sdp"
+        android:scaleType="fitXY"
+        android:background="@drawable/round_rect_border"
+        android:src="@drawable/plank" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="@dimen/_3sdp"
+        android:id="@+id/tvExcersice"
+        android:text="Stomach"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold" />
+
+</LinearLayout>
